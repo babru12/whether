@@ -30,13 +30,20 @@ body{
     padding: 20px 2rem;
     flex:1;
 }
+.inner-container button{
+    height:8%;
+    width: 22%;
+    background:linear-gradient(135deg,#23478b,#2987ba);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
 .inner-container img{
     border: 0;
     outline: 0;
     cursor: pointer;
-    width: 60px;
-    aspect-ratio: 1;
-    margin-left: 10px;
+    width: 70px;
+    height: 60px;
 }
 .container-2{
     display: flex;
